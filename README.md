@@ -1,119 +1,184 @@
-![Build Status](https://gitlab.com/pages/jekyll/badges/master/build.svg)
-![Jekyll Version](https://img.shields.io/gem/v/jekyll.svg)
+# Agency Jekyll Theme
 
----
+[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
+[![LICENSE](https://img.shields.io/badge/license-MIT-blue)](/LICENSE.txt)
+[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip_me-green?logo=paypal)](https://www.paypal.me/raviriley)
+[![template button](https://img.shields.io/badge/Generate_theme_from_template-2ea44f)][generate]
+[![Featured on Jekyll-Themes.com](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/agency-jekyll-theme/)
 
-Example [Jekyll] website using GitLab Pages.  View it live at https://pages.gitlab.io/jekyll
+## Preview - click for live demo
 
-[Learn more about GitLab Pages](https://pages.gitlab.io) or read the the [official GitLab Pages documentation](https://docs.gitlab.com/ce/user/project/pages/).
+[![screenshot](/screenshot.PNG)][demo-page]
 
----
+## Warning
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+> :warning: **Notice for those using legacy Formspree contact forms:** :warning:
+>
+> Email-based forms are being [phased out](https://help.formspree.io/hc/en-us/articles/360056076314) by Formspree. [#11](https://github.com/raviriley/agency-jekyll-theme/pull/11) updated this theme to use the [new Formspree structure](https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam). Click [here](https://help.formspree.io/hc/en-us/articles/360056076314) for instructions on updating your site's form.
 
-- [Getting Started](#getting-started)
-  - [Start by forking this repository](#start-by-forking-this-repository)
-  - [Start from a local Jekyll project](#start-from-a-local-jekyll-project)
-- [GitLab CI](#gitlab-ci)
-- [Using Jekyll locally](#using-jekyll-locally)
-- [GitLab User or Group Pages](#gitlab-user-or-group-pages)
-- [Did you fork this project?](#did-you-fork-this-project)
-- [Other examples](#other-examples)
-- [Troubleshooting](#troubleshooting)
+## About
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+This is the [Agency Bootstrap theme](https://startbootstrap.com/themes/agency/), converted to a gem-based Jekyll theme with GitHub Pages support.
 
-## Getting Started
+While this has been done before, [here](https://github.com/y7kim/agency-jekyll-theme), [here](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency), and [here](https://github.com/laklau/agency-jekyll-theme/), these are outdated and have not been updated or maintained for years. I built this theme from the most recent Bootstrap source.
 
-You can get started with GitLab Pages using Jekyll easily by either forking this repository or by uploading a new/existing Jekyll project.
+I also added a lot of new features that go beyond the original theme's capabilities:
 
-Remember you need to wait for your site to build before you will be able to see your changes.  You can track the build on the **Pipelines** tab.
+- GitHub Pages support
+- [template repo][template] to get up and running in minutes
+- contact form functionality powered by [Formspree.io](https://formspree.io)
+- custom pages
+- 404 page
+- legal/Privacy Policy page
+- Google Analytics support
+- Markdown support
+- custom images
+- logo support (instead of just title text)
+- automatically updating copyright years
+- custom navigation bar, even without the header image(s)
+- customizable footer
+- custom accent color and dark/light colors
+- horizontal scrolling support for client section
+<!--
+- custom colors with automatic gradient generation (coming soon)
+- site title logo text font customization (coming soon)
+- horizontal scrolling support for portfolio section (coming soon)
+- about section (different from the timeline) -->
 
-### Start by forking this repository
+The Jekyll structure of this theme includes:
 
-1. Fork this repository.
-1. **IMPORTANT:** Remove the fork relationship.
-Go to **Settings (⚙)** > **Edit Project** and click the **"Remove fork relationship"** button.
-1. Enable Shared Runners.
-Go to **Settings (⚙)** > **Pipelines** and click the **"Enable shared Runners"** button.
-1. Rename the repository to match the name you want for your site.
-1. Edit your website through GitLab or clone the repository and push your changes.
+- `_portfolio` files - what generate the portfolio grid. YAML front matter handles all the details
+- the `page` layout allows custom pages, as seen in the legal and 404 pages
+- `sitetext.yml` enables complete customization of all site text
+- `navigation.yml` enables fully customizable navigation
+- `style.yml` enables fully customizable colors, background images, and other style-related things
 
-### Start from a local Jekyll project
+**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
 
-1. [Install][] Jekyll.
-1. Use `jekyll new` to create a new Jekyll Project.
-1. Add [this `.gitlab-ci.yml`](.gitlab-ci.yml) to the root of your project.
-1. Push your repository and changes to GitLab.
+<div align="center">
 
-## GitLab CI
+[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/raviriley)
 
-This project's static Pages are built by [GitLab CI][ci], following the steps
-defined in [`.gitlab-ci.yml`](.gitlab-ci.yml):
+</div>
 
+## Installation
+
+There are three ways to install this theme:
+
+1. As a gem-based theme
+2. Use the [starter template][template] (best for GitHub Pages)
+3. As a remote theme
+
+#### 1. Gem-based Theme Installation
+
+Replace the contents of your `_config.yml` file with the sample [\_config.yml](https://raw.githubusercontent.com/raviriley/agency-jekyll-theme-starter/master/_config.yml).
+
+Install the gem with:
+
+```sh
+$ bundle add jekyll-agency
 ```
-image: ruby:2.3
 
-variables:
-  JEKYLL_ENV: production
+Or manually.
 
-pages:
-  script:
-  - bundle install
-  - bundle exec jekyll build -d public
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
+1. Add this line to your Jekyll site's `Gemfile`:
+   ```ruby
+   gem "jekyll-agency"
+   ```
+2. Then execute:
+   ```sh
+   $ bundle install
+   ```
+
+#### 2. Using the [Starter Template][template]
+
+This is the fastest and easiest way to get up and running on GitHub Pages.
+
+Simply generate your own repository by clicking the button below. Then replace the sample content with your own and configure for your needs.
+
+<div align="center">
+
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)][generate]
+
+</div>
+    
+#### 3. Remote Theme Installation
+
+Replace your `_config.yml` file with the starter [\_config.yml](https://raw.githubusercontent.com/raviriley/agency-jekyll-theme-starter/master/_config.yml).
+
+Replace your `Gemfile` with the starter [Gemfile](https://raw.githubusercontent.com/raviriley/agency-jekyll-theme-starter/master/Gemfile).
+
+Then install gems.
+
+```sh
+$ bundle install
 ```
 
-## Using Jekyll locally
+<!--
+## Documentation and Usage
 
-To work locally with this project, you'll have to follow the steps below:
+**TODO:** Write usage instructions here. Describe available layouts, includes, or assets.
 
-1. Fork, clone or download this project
-1. [Install][] Jekyll
-1. Download dependencies: `bundle`
-1. Build and preview: `bundle exec jekyll serve`
-1. Add content
+navheader is used only for the home page. nav is used everywhere else.
 
-The above commands should be executed from the root directory of this project.
+Layouts:
 
-Read more at Jekyll's [documentation][].
+Includes:
 
-## GitLab User or Group Pages
+-->
 
-To use this project as your user/group website, you will need one additional
-step: just rename your project to `namespace.gitlab.io`, where `namespace` is
-your `username` or `groupname`. This can be done by navigating to your
-project's **Settings**.
+## Contributing
 
-Read more about [user/group Pages][userpages] and [project Pages][projpages].
+This project is intended to be a welcoming space for collaboration. If you have an idea, suggestion, feature request, etc., feel free to open an issue or pull request.
 
-## Did you fork this project?
+For bug reports, follow the provided template.
 
-If you forked this project for your own use, please go to your project's
-**Settings** and remove the forking relationship, which won't be necessary
-unless you want to contribute back to the upstream project.
+#### Improvements - Up for Grabs
 
-## Other examples
+- [ ] multiple language support (~~Spanish~~, Chinese, Arabic, etc.)
+- [ ] customizable background coloring for each section
+- [x] ~~custom background images~~
 
-* [jekyll-branched](https://gitlab.com/pages/jekyll-branched) demonstrates how you can keep your GitLab Pages site in one branch and your project's source code in another.
-* The [jekyll-themes](https://gitlab.com/groups/jekyll-themes) group contains a collection of example projects you can fork (like this one) having different visual styles.
+## Development
 
-## Troubleshooting
+To set up your environment to develop this theme, clone this repo or your fork.
 
-1. CSS is missing! That means two things:
-    * Either that you have wrongly set up the CSS URL in your templates, or
-    * your static generator has a configuration option that needs to be explicitly
-    set in order to serve static assets under a relative URL.
+```sh
+$ git clone https://github.com/raviriley/agency-jekyll-theme.git
+$ cd agency-jekyll-theme
+```
 
-[ci]: https://about.gitlab.com/gitlab-ci/
-[Jekyll]: http://jekyllrb.com/
-[install]: https://jekyllrb.com/docs/installation/
-[documentation]: https://jekyllrb.com/docs/home/
-[userpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#user-or-group-pages
-[projpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#project-pages
+Then run:
+
+```sh
+$ bundle install
+```
+
+To test the theme, run this. (Using the `--trace` flag for verbose errors.)
+
+```sh
+$ bundle exec jekyll serve --trace
+```
+
+Then open your browser at:
+
+- http://localhost:4000
+
+Add pages, documents, data, etc. like normal to test the theme's contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh.
+
+## License
+
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+<!--
+
+## Example Implementations
+
+- [CV Enterprises](https://cventerprises.org)
+- [Mortazavi Lab at UC Irvine](https://mortazavilab.github.io/)
+
+-->
+
+[demo-page]: https://raviriley.github.io/agency-jekyll-theme-starter/
+[template]: https://github.com/raviriley/agency-jekyll-theme-starter
+[generate]: https://github.com/raviriley/agency-jekyll-theme-starter/generate
