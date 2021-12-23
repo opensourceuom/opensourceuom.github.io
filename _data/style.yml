@@ -6,6 +6,6 @@
 #Image Customization
 site-logo: "../img/logo.png"
 header-image: "../img/header.png"
-contact-image: "../img/contact.jpg"
+contact-image: "assets/img/contact.jpg"
 #Font Awesome icon for portfolio grid when an item is hovered over
 #portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x

@@ -183,20 +183,20 @@ el: &DEFAULT_EL
     section: activities
     list:
       - title: "Εκπαίδευση"
-        desc: "Μέσα από την μελέτη του κώδικα και τις συχνές συναντήσεις μας, εκπαιδευόμαστε σχετικά με τις νέες τεχνολογίες."
+        desc: "Διοργανώνουμε εκπαιδευτικές δράσεις, μαθήματα, παρουσιάσεις και μαθαίνουμε για τις νέες τεχνολογίες."
         icon: fas fa-graduation-cap #find more at https://fontawesome.com/icons
       - title: "Εκδηλώσεις"
-        desc: "Συμμετοχή και πραγματοποίηση εκδηλώσεων, στον Ελληνικό χώρο αλλά και παγκοσμίως."
+        desc: "Συμμετέχουμε και διοργανώνουμε εκδηλώσεις, στην Ελλάδα αλλά και παγκοσμίως. Μέσα από την εθελοντική μας προσφορά, γινόμαστε γνωστοί στον χώρο του Ανοικτού Λογισμικού / Λογισμικού Ανοικτού Κώδικα."
         icon: fas fa-laptop
       - title: "Project"
-        desc: "Συμμετοχή σε ποικίλα projects."
-        icon: fab fa-laptop
+        desc: "Αναπτύσσουμε, μεταφράζουμε λογισμικό και δοκιμάζουμε υλικό. Συνεισφέρουμε σε παγκόσμιας εμβέλειας projects ανοικτού λογισμικού."
+        icon: fas fas fa-code-branch
 
   portfolio:
     title: "ΤΑ ΕΡΓΑ ΜΑΣ"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Projects που είτε ξεκινήσαμε αλλά και έργα που συμμετέχουμε ενεργά."
     section: projects
-    closebutton: "Cerrar Proyecto"
+    closebutton: "Κλείσιμο Έργου"
 
 
 
@@ -229,7 +229,7 @@ el: &DEFAULT_EL
   clients:
     section: clientes
     max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
+    horizontal-scrolling: "no" #"yes/no"
     list:
       - title: "envato"
         url: https://github.com/raviriley/agency-jekyll-theme
@@ -246,13 +246,13 @@ el: &DEFAULT_EL
 
   team:
     title: "ΟΜΑΔΕΣ ΕΡΓΑΣΙΑΣ"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: equipo
+    text: "Ομάδες εργασίας που μπορείτε να συμμετέχετε..."
+    subtext: Δεν περιοριζομαστε σε αυτές τις ομάδες. Μπορείτε να προτείνετε και εσείς μια δικιά σας
+    section: omades
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+      - name: "Μεταφραστική ομάδα"
+        role: "Translation"
+        image: assets/img/team/avatar.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -260,9 +260,9 @@ el: &DEFAULT_EL
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
+      - name: "Ανάπτυξη λογισμικού"
+        role: "Software"
+        image: assets/img/team/avatar.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -270,9 +270,9 @@ el: &DEFAULT_EL
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+      - name: "Τρισδιάστατη εκτύπωση"
+        role: "Hardware"
+        image: assets/img/team/avatar.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
