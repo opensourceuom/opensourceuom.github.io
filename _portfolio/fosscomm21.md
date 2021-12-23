@@ -1,7 +1,7 @@
 ---
 caption: #what displays in the portfolio grid:
   title: FOSSCOMM  2021
-  subtitle: subtitle
+  subtitle: Διοργάνωση συνεδρίου
   thumbnail: assets/img/portfolio/FOSSCOMM_2021.png
   
 #what displays when the item is clicked:
