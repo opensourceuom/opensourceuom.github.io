@@ -4,6 +4,7 @@
 #black: "#000"
 
 #Image Customization
+site-logo: "../img/logo.png"
 header-image: "../img/header.png"
 contact-image: "../img/contact.jpg"
 #Font Awesome icon for portfolio grid when an item is hovered over
