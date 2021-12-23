@@ -157,7 +157,7 @@ en: &DEFAULT_EN
         icon: "fab fa-gitlab"
       - url: https://www.instagram.com/opensourceuom/
         icon: "fab fa-instagram"
-      - url: https://discord.gg/8Qqs9Cdn
+      - url: https://discord.gg/XtxtM3ZHUm
         icon: "fab fa-discord"
 en-US:
   <<: *DEFAULT_EN
@@ -175,12 +175,29 @@ el: &DEFAULT_EL
     title: Καλώς ήλθατε
     text: ΟΜΑΔΑ ΑΝΟΙΚΤΟΥ ΛΟΓΙΣΜΙΚΟΥ ΠΑΝΕΠΙΣΤΗΜΙΟΥ ΜΑΚΕΔΟΝΙΑΣ
     button: Δείτε περισσότερα
-    buttonlink: "#servicios"
+    buttonlink: "#activities"
+
+  timeline:
+    title: "ΕΚΔΗΛΩΣΕΙΣ"
+    text: "Εκδηλώσεις που συμμετείχε ή οργάνωσε η ομάδα"
+    section: events
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "FOSSCOMM"
+        year: "2021"
+        desc: "Το [FOSSCOMM (Free and Open Source Software Communities Meeting)](https://2021.fosscomm.gr/) είναι ένα ετήσιο πανελλήνιο συνέδριο κοινοτήτων ελεύθερου λογισμικού και λογισμικού ανοικτού κώδικα. Απευθύνεται σε προγραμματιστές, φοιτητές και γενικά σε όποιους ενδιαφέρονται για το open source ανεξαρτήτως του γνωστικού τους υποβάθρου. Συμμετέχουν κοινότητες ανοικτού λογισμικού, ομάδες προγραμματιστών και συντελεστών έργων. Το περιεχόμενο είναι ευρέως ενδιαφέροντος, από τεχνικά ζητήματα και workshops, μέχρι μεταφράσεις, νομικά θέματα, θέματα πολιτικής σχετικά με το ελεύθερο/ανοικτό λογισμικό κ.α."
+        image: assets/img/timeline/FOSSCOMM_2021.png
+        alt:
+
+        # you can enforce the alignment
+        align: right
+    end: "Συμμετέχετε <br> και εσείς <br> μαζί μας!"
 
   services:
-    title: "Servicios"
-    text: "Lorem ipsum"
-    section: servicios
+    title: "ΔΡΑΣΤΗΡΙΟΤΗΤΕΣ"
+    text: "Ομάδας"
+    section: activities
     list:
       - title: "Comercio Electrónico"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
@@ -193,41 +210,12 @@ el: &DEFAULT_EL
         icon: fab fa-markdown
 
   portfolio:
-    title: "Portafolio"
+    title: "ΤΑ ΕΡΓΑ ΜΑΣ"
     text: "Lorem ipsum dolor sit amet consectetur."
-    section: portafolio
+    section: projects
     closebutton: "Cerrar Proyecto"
 
-  timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
-    section: cronologia
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
+
 
   about:
     title: "ΟΜΑΔΑ ΑΝΟΙΚΤΟΥ ΛΟΓΙΣΜΙΚΟΥ"
@@ -321,7 +309,7 @@ el: &DEFAULT_EL
         icon: "fab fa-gitlab"
       - url: https://www.instagram.com/opensourceuom/
         icon: "fab fa-instagram"
-      - url: https://discord.gg/8Qqs9Cdn
+      - url: https://discord.gg/XtxtM3ZHUm
         icon: "fab fa-discord"
 el-GR:
   <<: *DEFAULT_EL
