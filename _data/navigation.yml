@@ -37,16 +37,16 @@ en-AU:
 # -------
 el: &DEFAULT_EL
   nav:
-    - title: "ΥΠΗΡΕΣΙΕΣ"
-      section: servicios
-    - title: "ΠΟΡΤΟΦΟΛΑ"
-      section: portafolio
+    - title: "ΔΡΑΣΤΗΡΙΟΤΗΤΕΣ"
+      section: activities
+    - title: "ΕΡΓΑ"
+      section: projects
     - title: "ΠΟΙΟΙ ΕΙΜΑΣΤΕ"
       section: peri
-    - title: "ΧΡΟΝΟΛΟΓΙΟ"
-      section: cronologia
-    - title: "ΟΜΑΣ"
-      section: equipo
+    - title: "ΕΚΔΗΛΩΣΕΙΣ"
+      section: events
+    - title: "ΟΜΑΔΕΣ ΕΡΓΑΣΙΑΣ"
+      section: omades
     - title: "ΕΠΙΚΟΙΝΩΝΙΑ"
       section: epikoinonia
 

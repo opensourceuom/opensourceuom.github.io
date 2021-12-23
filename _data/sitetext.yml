@@ -157,7 +157,7 @@ en: &DEFAULT_EN
         icon: "fab fa-gitlab"
       - url: https://www.instagram.com/opensourceuom/
         icon: "fab fa-instagram"
-      - url: https://discord.gg/8Qqs9Cdn
+      - url: https://discord.gg/XtxtM3ZHUm
         icon: "fab fa-discord"
 en-US:
   <<: *DEFAULT_EN
@@ -175,59 +175,30 @@ el: &DEFAULT_EL
     title: Καλώς ήλθατε
     text: ΟΜΑΔΑ ΑΝΟΙΚΤΟΥ ΛΟΓΙΣΜΙΚΟΥ ΠΑΝΕΠΙΣΤΗΜΙΟΥ ΜΑΚΕΔΟΝΙΑΣ
     button: Δείτε περισσότερα
-    buttonlink: "#servicios"
+    buttonlink: "#activities"
 
   services:
-    title: "Servicios"
-    text: "Lorem ipsum"
-    section: servicios
+    title: "ΔΡΑΣΤΗΡΙΟΤΗΤΕΣ"
+    text: "Ομάδας"
+    section: activities
     list:
-      - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Εκπαίδευση"
+        desc: "Διοργανώνουμε εκπαιδευτικές δράσεις, μαθήματα, παρουσιάσεις και μαθαίνουμε για τις νέες τεχνολογίες."
+        icon: fas fa-graduation-cap #find more at https://fontawesome.com/icons
+      - title: "Εκδηλώσεις"
+        desc: "Συμμετέχουμε και διοργανώνουμε εκδηλώσεις, στην Ελλάδα αλλά και παγκοσμίως. Μέσα από την εθελοντική μας προσφορά, γινόμαστε γνωστοί στον χώρο του Ανοικτού Λογισμικού / Λογισμικού Ανοικτού Κώδικα."
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
-        icon: fab fa-markdown
+      - title: "Project"
+        desc: "Αναπτύσσουμε, μεταφράζουμε λογισμικό και δοκιμάζουμε υλικό. Συνεισφέρουμε σε παγκόσμιας εμβέλειας projects ανοικτού λογισμικού."
+        icon: fas fas fa-code-branch
 
   portfolio:
-    title: "Portafolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portafolio
-    closebutton: "Cerrar Proyecto"
+    title: "ΤΑ ΕΡΓΑ ΜΑΣ"
+    text: "Projects που είτε ξεκινήσαμε αλλά και έργα που συμμετέχουμε ενεργά."
+    section: projects
+    closebutton: "Κλείσιμο Έργου"
 
-  timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
-    section: cronologia
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
+
 
   about:
     title: "ΟΜΑΔΑ ΑΝΟΙΚΤΟΥ ΛΟΓΙΣΜΙΚΟΥ"
@@ -238,10 +209,27 @@ el: &DEFAULT_EL
 Για περισσότερες πληροφορίες επικοινωνήστε με την ομάδα στο email : linux-team@uom.edu.gr"
     section: peri
 
+  timeline:
+    title: "ΕΚΔΗΛΩΣΕΙΣ"
+    text: "Εκδηλώσεις που συμμετείχε ή οργάνωσε η ομάδα"
+    section: events
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "FOSSCOMM"
+        year: "2021"
+        desc: "Το [FOSSCOMM (Free and Open Source Software Communities Meeting)](https://2021.fosscomm.gr/) είναι ένα ετήσιο πανελλήνιο συνέδριο κοινοτήτων ελεύθερου λογισμικού και λογισμικού ανοικτού κώδικα. Απευθύνεται σε προγραμματιστές, φοιτητές και γενικά σε όποιους ενδιαφέρονται για το open source ανεξαρτήτως του γνωστικού τους υποβάθρου. Συμμετέχουν κοινότητες ανοικτού λογισμικού, ομάδες προγραμματιστών και συντελεστών έργων. Το περιεχόμενο είναι ευρέως ενδιαφέροντος, από τεχνικά ζητήματα και workshops, μέχρι μεταφράσεις, νομικά θέματα, θέματα πολιτικής σχετικά με το ελεύθερο/ανοικτό λογισμικό κ.α."
+        image: assets/img/timeline/FOSSCOMM_2021.png
+        alt:
+
+        # you can enforce the alignment
+        align: right
+    end: "Συμμετέχετε <br> και εσείς <br> μαζί μας!"
+
   clients:
     section: clientes
     max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
+    horizontal-scrolling: "no" #"yes/no"
     list:
       - title: "envato"
         url: https://github.com/raviriley/agency-jekyll-theme
@@ -257,14 +245,14 @@ el: &DEFAULT_EL
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "NUESTRO INCREÍBLE EQUIPO"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: equipo
+    title: "ΟΜΑΔΕΣ ΕΡΓΑΣΙΑΣ"
+    text: "Ομάδες εργασίας που μπορείτε να συμμετέχετε..."
+    subtext: Δεν περιοριζομαστε σε αυτές τις ομάδες. Μπορείτε να προτείνετε και εσείς μια δικιά σας
+    section: omades
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+      - name: "Μεταφραστική ομάδα"
+        role: "Translation"
+        image: assets/img/team/avatar.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -272,9 +260,9 @@ el: &DEFAULT_EL
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
+      - name: "Ανάπτυξη λογισμικού"
+        role: "Software"
+        image: assets/img/team/avatar.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -282,9 +270,9 @@ el: &DEFAULT_EL
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+      - name: "Τρισδιάστατη εκτύπωση"
+        role: "Hardware"
+        image: assets/img/team/avatar.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -294,7 +282,7 @@ el: &DEFAULT_EL
             icon: fab fa-linkedin-in
 
   contact:
-    title: "Επικοινωνία"
+    title: "ΕΠΙΚΟΙΝΩΝΙΑ"
     text: "GDPR Disclaimer: Υποβάλλοντας ερώτημα μέσω της φόρμας, μας χορηγείτε άδεια να επικοινωνήσουμε μαζί σας. Δεν αποθηκεύουμε τα στοιχεία σας."
     section: epikoinonia
     name: "Όνομα"
@@ -309,7 +297,7 @@ el: &DEFAULT_EL
     submit: "Αποστολή"
 
   footer:
-    legal: "Κώδικας δεοντολογίας"
+    legal: "ΚΩΔΙΚΑΣ ΔΕΟΝΤΟΛΟΓΙΑΣ"
     social:
       - url: https://twitter.com/opensource_uom
         icon: "fab fa-twitter"
@@ -321,7 +309,7 @@ el: &DEFAULT_EL
         icon: "fab fa-gitlab"
       - url: https://www.instagram.com/opensourceuom/
         icon: "fab fa-instagram"
-      - url: https://discord.gg/8Qqs9Cdn
+      - url: https://discord.gg/XtxtM3ZHUm
         icon: "fab fa-discord"
 el-GR:
   <<: *DEFAULT_EL
