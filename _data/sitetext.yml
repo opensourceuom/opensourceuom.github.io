@@ -170,7 +170,7 @@ en-AU:
 
 # Greek
 # -------
-el: &DEFAULT_EL
+gr: &DEFAULT_GR
   header:
     title: Καλώς ήλθατε
     text: ΟΜΑΔΑ ΑΝΟΙΚΤΟΥ ΛΟΓΙΣΜΙΚΟΥ ΠΑΝΕΠΙΣΤΗΜΙΟΥ ΜΑΚΕΔΟΝΙΑΣ
@@ -284,7 +284,7 @@ el: &DEFAULT_EL
   contact:
     title: "ΕΠΙΚΟΙΝΩΝΙΑ"
     text: "GDPR Disclaimer: Υποβάλλοντας ερώτημα μέσω της φόρμας, μας χορηγείτε άδεια να επικοινωνήσουμε μαζί σας. Δεν αποθηκεύουμε τα στοιχεία σας."
-    section: epikoinonia
+    section: contact
     name: "Όνομα"
     name-validation: "Παρακαλούμε εισάγετε το όνομά σας"
     email: "Email"
@@ -311,5 +311,5 @@ el: &DEFAULT_EL
         icon: "fab fa-instagram"
       - url: https://discord.gg/XtxtM3ZHUm
         icon: "fab fa-discord"
-el-GR:
-  <<: *DEFAULT_EL
+gr-GR:
+  <<: *DEFAULT_GR
