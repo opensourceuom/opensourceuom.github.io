@@ -183,14 +183,14 @@ el: &DEFAULT_EL
     section: activities
     list:
       - title: "Εκπαίδευση"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+        desc: "Μέσα από την μελέτη του κώδικα και τις συχνές συναντήσεις μας, εκπαιδευόμαστε σχετικά με τις νέες τεχνολογίες."
+        icon: fas fa-graduation-cap #find more at https://fontawesome.com/icons
       - title: "Εκδηλώσεις"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "Συμμετοχή και πραγματοποίηση εκδηλώσεων, στον Ελληνικό χώρο αλλά και παγκοσμίως."
         icon: fas fa-laptop
       - title: "Project"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
-        icon: fab fa-markdown
+        desc: "Συμμετοχή σε ποικίλα projects."
+        icon: fab fa-laptop
 
   portfolio:
     title: "ΤΑ ΕΡΓΑ ΜΑΣ"
