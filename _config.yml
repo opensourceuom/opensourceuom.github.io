@@ -13,7 +13,7 @@
 
 theme: jekyll-agency
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "https://opensourceuom.gitlab.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Open Source UoM
@@ -24,7 +24,7 @@ author     : Open Source UoM
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
 
-locale: "en-US" # See available languages in _data/sitetext.yml
+locale: "el-GR" # See available languages in _data/sitetext.yml
 
 analytics:
   google: #Google Analytics tracking code here
