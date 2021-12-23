@@ -69,8 +69,8 @@ en: &DEFAULT_EN
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "Η ομάδα ανοικοικτού λογισμικού του Πανεπιστημίου Μακεδονίας"
-    text: "Η ιστορία μας"
+    title: "Open Source UoM"
+    text: "Our Story"
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
     section: about
 
@@ -168,13 +168,13 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
-# Spanish
+# Greek
 # -------
-es: &DEFAULT_ES
+el: &DEFAULT_EL
   header:
-    title: ¡Bienvenido a nuestro Estudio!
-    text: Es un placer conocerle
-    button: Ver más
+    title: Καλώς ήλθατε
+    text: ΟΜΑΔΑ ΑΝΟΙΚΤΟΥ ΛΟΓΙΣΜΙΚΟΥ ΠΑΝΕΠΙΣΤΗΜΙΟΥ ΜΑΚΕΔΟΝΙΑΣ
+    button: Δείτε περισσότερα
     buttonlink: "#servicios"
 
   services:
@@ -230,10 +230,13 @@ es: &DEFAULT_ES
     end: "¡Se parte <br> de Nuestra <br> Historia!"
 
   about:
-    title: "Sobre nosotros"
-    text: "nuestra historia"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: nosotros
+    title: "ΟΜΑΔΑ ΑΝΟΙΚΤΟΥ ΛΟΓΙΣΜΙΚΟΥ"
+    text: "ΠΑΝΕΠΙΣΤΗΜΙΟ ΜΑΚΕΔΟΝΙΑΣ"
+    body: "Η [Ομάδα Ανοικτού Λογισμικού του Πανεπιστημίου Μακεδονίας](https://www.facebook.com/opensourceuom) είναι μια ομάδα οργανωμένη από φοιτητές του Πανεπιστημίου Μακεδονίας, που σκοπό έχει να γνωστοποιήσει και να προωθήσει το Ελεύθερο Λογισμικό, Λογισμικό Ανοικτού Κώδικα (ΕΛ/ΛΑΚ) και Open Source Hardware. Η ομάδα απαρτίζεται κυρίως από φοιτητές του τμήματος της Εφαρμοσμένης Πληροφορικής, μπορεί όμως να συμμετέχει οποιοσδήποτε θέλει να βοηθήσει και να προσφέρει στην ομάδα, με όποιον τρόπο μπορεί. <br /><br /> 
+
+Η συμμετοχή είναι εθελοντική και δεν είστε υποχρεωμένοι να καταβάλετε οποιοδήποτε χρηματικό ποσό εκτός και αν θέλετε να βοηθήσετε οικονομικά την ομάδα σε τυχόν έξοδα που προκύπτουν κατά καιρούς, είτε για αγορά απαραίτητου εξοπλισμού, είτε για την διοργάνωση εκδηλώσεων.
+Για περισσότερες πληροφορίες επικοινωνήστε με την ομάδα στο email : linux-team@uom.edu.gr"
+    section: peri
 
   clients:
     section: clientes
@@ -291,22 +294,22 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
 
   contact:
-    title: "Contáctenos"
-    text: "Lorem ipsum or call 123456789"
-    section: contacto
-    name: "Nombre*"
-    name-validation: "Por favor ingrese su nombre."
-    email: "Correo Electrónico*"
-    email-validation: "Por favor ingrese su correo electrónico."
-    phone: "Número Telefónico*"
-    phone-validation: "Por favor ingrese su número telefónico."
-    message: "Mensaje*"
-    message-validation: "Por favor escriba un mensaje."
-    subject: "Envío del formulario de contacto"
-    submit: "Enviar Mensaje"
+    title: "Επικοινωνία"
+    text: "GDPR Disclaimer: Υποβάλλοντας ερώτημα μέσω της φόρμας, μας χορηγείτε άδεια να επικοινωνήσουμε μαζί σας. Δεν αποθηκεύουμε τα στοιχεία σας."
+    section: epikoinonia
+    name: "Όνομα"
+    name-validation: "Παρακαλούμε εισάγετε το όνομά σας"
+    email: "Email"
+    email-validation: "Παρακαλούμε εισάγετε την ηλεκτρονική σας διεύθυνση"
+    phone: "Κινητό"
+    phone-validation: "Παρακαλούμε εισάγετε τον αριθμό κινητού σας"
+    message: "Μήνυμα"
+    message-validation: "Παρακαλούμε διακτυλογραφήστε το μήνυμά σας"
+    subject: "Υποβολή φόρμας"
+    submit: "Αποστολή"
 
   footer:
-    legal: "Política de Privacidad"
+    legal: "Κώδικας δεοντολογίας"
     social:
       - url: https://twitter.com/opensource_uom
         icon: "fab fa-twitter"
@@ -320,7 +323,5 @@ es: &DEFAULT_ES
         icon: "fab fa-instagram"
       - url: https://discord.gg/8Qqs9Cdn
         icon: "fab fa-discord"
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES
+el-GR:
+  <<: *DEFAULT_EL
