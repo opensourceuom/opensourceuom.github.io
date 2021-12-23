@@ -45,8 +45,8 @@ el: &DEFAULT_EL
       section: peri
     - title: "ΕΚΔΗΛΩΣΕΙΣ"
       section: events
-    - title: "ΟΜΑΣ"
-      section: equipo
+    - title: "ΟΜΑΔΕΣ ΕΡΓΑΣΙΑΣ"
+      section: omades
     - title: "ΕΠΙΚΟΙΝΩΝΙΑ"
       section: epikoinonia
 
