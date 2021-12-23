@@ -23,8 +23,7 @@ en: &DEFAULT_EN
       section: team
     - title: "Contact"
       section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -42,7 +41,7 @@ el: &DEFAULT_EL
       section: servicios
     - title: "ΠΟΡΤΟΦΟΛΑ"
       section: portafolio
-    - title: "ΦΑΝΤΑΣΤΙΚΗ ΟΜΑΔΑ"
+    - title: "ΠΟΙΟΙ ΕΙΜΑΣΤΕ"
       section: peri
     - title: "ΧΡΟΝΟΛΟΓΙΟ"
       section: cronologia
@@ -50,7 +49,6 @@ el: &DEFAULT_EL
       section: equipo
     - title: "ΕΠΙΚΟΙΝΩΝΙΑ"
       section: epikoinonia
-    - title: "ΠΗΓΗ ΘΕΜΑΤΟΣ"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+
 el-GR:
   <<: *DEFAULT_EL
