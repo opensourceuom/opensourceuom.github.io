@@ -20,11 +20,11 @@ title      : Open Source UoM
 email      : linux-team@uom.edu.gr #this is also the email contact forms will go to
 description: "Ομάδα Ανοικτού Λογισμικού Πανεπιστημίου Μακεδονίας"
 author     : Open Source UoM
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+logo:     #optional, defaults to site title
+   path: assets\img\osuomlogo.png
+   height: 60 #height in px, defaults to 52px
 
-locale: "el-GR" # See available languages in _data/sitetext.yml
+locale: "en-US" # See available languages in _data/sitetext.yml
 
 analytics:
   google: #Google Analytics tracking code here
