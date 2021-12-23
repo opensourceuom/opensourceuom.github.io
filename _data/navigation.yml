@@ -34,25 +34,23 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
-# Spanish
+# Greek
 # -------
-es: &DEFAULT_ES
+el: &DEFAULT_EL
   nav:
-    - title: "Servicios"
+    - title: "ΥΠΗΡΕΣΙΕΣ"
       section: servicios
-    - title: "Portafolio"
+    - title: "ΠΟΡΤΟΦΟΛΑ"
       section: portafolio
-    - title: "Sobre Nosotros"
-      section: nosotros
-    - title: "Cronología"
+    - title: "ΦΑΝΤΑΣΤΙΚΗ ΟΜΑΔΑ"
+      section: peri
+    - title: "ΧΡΟΝΟΛΟΓΙΟ"
       section: cronologia
-    - title: "Equipo"
+    - title: "ΟΜΑΣ"
       section: equipo
-    - title: "Contáctenos"
-      section: contacto
-    - title: "Fuente de la plantilla"
+    - title: "ΕΠΙΚΟΙΝΩΝΙΑ"
+      section: epikoinonia
+    - title: "ΠΗΓΗ ΘΕΜΑΤΟΣ"
       url: https://github.com/raviriley/agency-jekyll-theme/
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES
+el-GR:
+  <<: *DEFAULT_EL
