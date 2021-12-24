@@ -170,7 +170,7 @@ en-AU:
 
 # Greek
 # -------
-el: &DEFAULT_EL
+gr: &DEFAULT_GR
   header:
     title: Καλώς ήλθατε
     text: ΟΜΑΔΑ ΑΝΟΙΚΤΟΥ ΛΟΓΙΣΜΙΚΟΥ ΠΑΝΕΠΙΣΤΗΜΙΟΥ ΜΑΚΕΔΟΝΙΑΣ
@@ -186,7 +186,7 @@ el: &DEFAULT_EL
         desc: "Διοργανώνουμε εκπαιδευτικές δράσεις, μαθήματα, παρουσιάσεις και μαθαίνουμε για τις νέες τεχνολογίες."
         icon: fas fa-graduation-cap #find more at https://fontawesome.com/icons
       - title: "Εκδηλώσεις"
-        desc: "Συμμετέχουμε και διοργανώνουμε εκδηλώσεις, στην Ελλάδα αλλά και παγκοσμίως. Μέσα από την εθελοντική μας προσφορά, γινόμαστε γνωστοί στον χώρο του Ανοικτού Λογισμικού / Λογισμικού Ανοικτού Κώδικα."
+        desc: "Συμμετέχουμε και διοργανώνουμε εκδηλώσεις, στην Ελλάδα αλλά και παγκοσμίως."
         icon: fas fa-laptop
       - title: "Project"
         desc: "Αναπτύσσουμε, μεταφράζουμε λογισμικό και δοκιμάζουμε υλικό. Συνεισφέρουμε σε παγκόσμιας εμβέλειας projects ανοικτού λογισμικού."
@@ -194,7 +194,7 @@ el: &DEFAULT_EL
 
   portfolio:
     title: "ΤΑ ΕΡΓΑ ΜΑΣ"
-    text: "Projects που είτε ξεκινήσαμε αλλά και έργα που συμμετέχουμε ενεργά."
+    text: "Projects που ξεκινήσαμε αλλά και διάφορα έργα που συμμετέχουμε ενεργά."
     section: projects
     closebutton: "Κλείσιμο Έργου"
 
@@ -219,7 +219,7 @@ el: &DEFAULT_EL
       - title: "FOSSCOMM"
         year: "2021"
         desc: "Το [FOSSCOMM (Free and Open Source Software Communities Meeting)](https://2021.fosscomm.gr/) είναι ένα ετήσιο πανελλήνιο συνέδριο κοινοτήτων ελεύθερου λογισμικού και λογισμικού ανοικτού κώδικα. Απευθύνεται σε προγραμματιστές, φοιτητές και γενικά σε όποιους ενδιαφέρονται για το open source ανεξαρτήτως του γνωστικού τους υποβάθρου. Συμμετέχουν κοινότητες ανοικτού λογισμικού, ομάδες προγραμματιστών και συντελεστών έργων. Το περιεχόμενο είναι ευρέως ενδιαφέροντος, από τεχνικά ζητήματα και workshops, μέχρι μεταφράσεις, νομικά θέματα, θέματα πολιτικής σχετικά με το ελεύθερο/ανοικτό λογισμικό κ.α."
-        image: assets/img/timeline/FOSSCOMM_2021.png
+        image: assets/img/timeline/FOSSCOMM_2021.jpg
         alt:
 
         # you can enforce the alignment
@@ -284,7 +284,7 @@ el: &DEFAULT_EL
   contact:
     title: "ΕΠΙΚΟΙΝΩΝΙΑ"
     text: "GDPR Disclaimer: Υποβάλλοντας ερώτημα μέσω της φόρμας, μας χορηγείτε άδεια να επικοινωνήσουμε μαζί σας. Δεν αποθηκεύουμε τα στοιχεία σας."
-    section: epikoinonia
+    section: contact
     name: "Όνομα"
     name-validation: "Παρακαλούμε εισάγετε το όνομά σας"
     email: "Email"
@@ -311,5 +311,5 @@ el: &DEFAULT_EL
         icon: "fab fa-instagram"
       - url: https://discord.gg/XtxtM3ZHUm
         icon: "fab fa-discord"
-el-GR:
-  <<: *DEFAULT_EL
+gr-GR:
+  <<: *DEFAULT_GR

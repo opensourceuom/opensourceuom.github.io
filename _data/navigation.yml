@@ -35,7 +35,7 @@ en-AU:
 
 # Greek
 # -------
-el: &DEFAULT_EL
+gr-GR: &DEFAULT_GR
   nav:
     - title: "ΔΡΑΣΤΗΡΙΟΤΗΤΕΣ"
       section: activities
@@ -48,7 +48,7 @@ el: &DEFAULT_EL
     - title: "ΟΜΑΔΕΣ ΕΡΓΑΣΙΑΣ"
       section: omades
     - title: "ΕΠΙΚΟΙΝΩΝΙΑ"
-      section: epikoinonia
+      section: contact
 
-el-GR:
-  <<: *DEFAULT_EL
+gr-GR:
+  <<: *DEFAULT_GR
