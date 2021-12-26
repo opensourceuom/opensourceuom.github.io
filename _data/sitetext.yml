@@ -229,20 +229,20 @@ gr: &DEFAULT_GR
   clients:
     section: clientes
     max-height: 100px
-    horizontal-scrolling: "no" #"yes/no"
+    horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+      - title: "openSUSE"
+        url: https://opensuse.org
+        logo: assets/img/clients/openSUSE.png
+      - title: "GNOME"
+        url: https://gnome.org
+        logo: assets/img/clients/gnome.png
+      - title: "Nextcloud"
+        url: https://nextcloud.com
+        logo: assets/img/clients/nextcloud.png
+      - title: "GNU Health"
+        url: https://www.gnuhealth.org/
+        logo: assets/img/clients/GNUHealth.png
 
   team:
     title: "ΟΜΑΔΕΣ ΕΡΓΑΣΙΑΣ"
@@ -253,45 +253,33 @@ gr: &DEFAULT_GR
       - name: "Μεταφραστική ομάδα"
         role: "Translation"
         image: assets/img/team/avatar.png
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+ 
       - name: "Ανάπτυξη λογισμικού"
         role: "Software"
         image: assets/img/team/avatar.png
+        
+      - name: "Χαρτογράφηση"
+        role: "Service"
+        image: assets/img/team/avatar.png
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+ 
       - name: "Τρισδιάστατη εκτύπωση"
         role: "Hardware"
         image: assets/img/team/avatar.png
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+ 
 
   contact:
     title: "ΕΠΙΚΟΙΝΩΝΙΑ"
     text: "GDPR Disclaimer: Υποβάλλοντας ερώτημα μέσω της φόρμας, μας χορηγείτε άδεια να επικοινωνήσουμε μαζί σας. Δεν αποθηκεύουμε τα στοιχεία σας."
     section: contact
-    name: "Όνομα"
+    name: "Όνομα*"
     name-validation: "Παρακαλούμε εισάγετε το όνομά σας"
-    email: "Email"
+    email: "Email*"
     email-validation: "Παρακαλούμε εισάγετε την ηλεκτρονική σας διεύθυνση"
-    phone: "Κινητό"
+    phone: "Κινητό*"
     phone-validation: "Παρακαλούμε εισάγετε τον αριθμό κινητού σας"
-    message: "Μήνυμα"
+    message: "Message*"
     message-validation: "Παρακαλούμε διακτυλογραφήστε το μήνυμά σας"
     subject: "Υποβολή φόρμας"
     submit: "ΑΠΟΣΤΟΛΗ"
