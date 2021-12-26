@@ -174,7 +174,7 @@ gr: &DEFAULT_GR
   header:
     title: Καλώς ήλθατε
     text: ΟΜΑΔΑ ΑΝΟΙΚΤΟΥ ΛΟΓΙΣΜΙΚΟΥ ΠΑΝΕΠΙΣΤΗΜΙΟΥ ΜΑΚΕΔΟΝΙΑΣ
-    button: Δείτε περισσότερα
+    button: ΔΕΙΤΕ ΠΕΡΙΣΣΟΤΕΡΑ
     buttonlink: "#activities"
 
   services:
@@ -188,7 +188,7 @@ gr: &DEFAULT_GR
       - title: "Εκδηλώσεις"
         desc: "Συμμετέχουμε και διοργανώνουμε εκδηλώσεις, στην Ελλάδα αλλά και παγκοσμίως."
         icon: fas fa-laptop
-      - title: "Project"
+      - title: "Projects"
         desc: "Αναπτύσσουμε, μεταφράζουμε λογισμικό και δοκιμάζουμε υλικό. Συνεισφέρουμε σε παγκόσμιας εμβέλειας projects ανοικτού λογισμικού."
         icon: fas fas fa-code-branch
 
@@ -240,9 +240,15 @@ gr: &DEFAULT_GR
       - title: "Nextcloud"
         url: https://nextcloud.com
         logo: assets/img/clients/nextcloud.png
+      - title: "ONLYOFFICE"
+        url: https://www.onlyoffice.com/
+        logo: assets/img/clients/ONLYOFFICE.png
       - title: "GNU Health"
         url: https://www.gnuhealth.org/
         logo: assets/img/clients/GNUHealth.png
+      - title: "Raspberry Pi"
+        url: https://www.raspberrypi.org/
+        logo: assets/img/clients/raspberry-pi.png
 
   team:
     title: "ΟΜΑΔΕΣ ΕΡΓΑΣΙΑΣ"
