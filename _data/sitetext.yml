@@ -243,6 +243,9 @@ gr: &DEFAULT_GR
       - title: "ONLYOFFICE"
         url: https://www.onlyoffice.com/
         logo: assets/img/clients/ONLYOFFICE.png
+        
+        <br><br>
+        
       - title: "GNU Health"
         url: https://www.gnuhealth.org/
         logo: assets/img/clients/GNUHealth.png
@@ -285,7 +288,7 @@ gr: &DEFAULT_GR
     email-validation: "Παρακαλούμε εισάγετε την ηλεκτρονική σας διεύθυνση"
     phone: "Κινητό*"
     phone-validation: "Παρακαλούμε εισάγετε τον αριθμό κινητού σας"
-    message: "Message*"
+    message: "Μήνυμα*"
     message-validation: "Παρακαλούμε διακτυλογραφήστε το μήνυμά σας"
     subject: "Υποβολή φόρμας"
     submit: "ΑΠΟΣΤΟΛΗ"
