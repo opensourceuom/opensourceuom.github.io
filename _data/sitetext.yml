@@ -294,7 +294,7 @@ gr: &DEFAULT_GR
     message: "Μήνυμα"
     message-validation: "Παρακαλούμε διακτυλογραφήστε το μήνυμά σας"
     subject: "Υποβολή φόρμας"
-    submit: "Αποστολή"
+    submit: "ΑΠΟΣΤΟΛΗ"
 
   footer:
     legal: "ΚΩΔΙΚΑΣ ΔΕΟΝΤΟΛΟΓΙΑΣ"
