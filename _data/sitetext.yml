@@ -172,10 +172,10 @@ en-AU:
 # -------
 gr: &DEFAULT_GR
   header:
-    title: ΕΚΔΗΛΩΣΗ
-    text: Γνωριμια με την openSource UoM και Installfest
+    title: Πανεπιστήμιο Μακεδονίας
+    text: ΟΜΑΔΑ ΑΝΟΙΚΤΟΥ ΛΟΓΙΣΜΙΚΟΥ
     button: ΔΕΙΤΕ ΠΕΡΙΣΣΟΤΕΡΑ
-    buttonlink: "#events"
+    buttonlink: "#activities"
 
   services:
     title: "ΔΡΑΣΤΗΡΙΟΤΗΤΕΣ"
