@@ -218,7 +218,7 @@ gr: &DEFAULT_GR
     events:
       - title: "Γνωριμία με την openSource UoM και Installfest"
         year: "2022"
-        desc: "Την Κυριακή 16 Ιανουαρίου πραγματοποιήθηκε η πρώτη συνάντηση γνωριμίας. 
+        desc: "Την Κυριακή 16 Ιανουαρίου πραγματοποιήθηκε η πρώτη συνάντηση γνωριμίας. <br>
 [Δείτε φωτογραφίες και βίντεο της εκδήλσωσης εδώ.](https://opensourceuom.gitlab.io/blog/posts/hello-world/)"
         image: assets/img/timeline/2022-1-16-uom-installfest.jpg
         alt:
