@@ -216,6 +216,14 @@ gr: &DEFAULT_GR
     # left is the default
     #start_align: "left"
     events:
+      - title: "Συμβουλές για git που θα ήθελα να γνωρίζω από το πρώτο έτος"
+        year: "2022"
+        desc: "Την Κυριακή 27 Φεβρουαρίου πραγματοποιήθηκε η παρουσίαση σχετική με το Git. <br>
+[Δείτε αναφορά της εκδήλσωσης εδώ.](https://opensourceuom.gitlab.io/blog/posts/simvoules-git/)"
+        image: assets/img/timeline/git.png
+        alt:
+    
+    
       - title: "Γνωριμία με την openSource UoM και Installfest"
         year: "2022"
         desc: "Την Κυριακή 16 Ιανουαρίου πραγματοποιήθηκε η πρώτη συνάντηση γνωριμίας. <br>
