@@ -257,7 +257,10 @@ gr: &DEFAULT_GR
         logo: assets/img/clients/nextcloud.png
       - title: "ONLYOFFICE"
         url: https://www.onlyoffice.com/
-        logo: assets/img/clients/ONLYOFFICE.png      
+        logo: assets/img/clients/ONLYOFFICE.png  
+      - title: "ownCloud"
+        url: https://owncloud.com/
+        logo: assets/img/clients/ownCloud.png    
       - title: "GNU Health"
         url: https://www.gnuhealth.org/
         logo: assets/img/clients/GNUHealth.png
